@@ -126,6 +126,9 @@ wss.on('connection', onconnection)
 
 server.on('upgrade', (request, socket, head) => {
   // You may check auth of request here..
+
+  // console.log(request);
+
   /**
    * @param {any} ws
    */
